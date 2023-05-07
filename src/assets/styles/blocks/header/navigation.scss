@@ -1,0 +1,47 @@
+.navigation {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  z-index: 100;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+
+    &::after {
+      content: "";
+      height: 10px;
+      width: 1px;
+      background-color: #fff;
+    }
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+
+    &:hover {
+      color: #5aba4a;
+    }
+
+    &--sign-up {
+      padding: 5px 15px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #5aba4a;
+      border: 1px solid #5aba4a;
+      border-radius: 4px;
+    }
+  }
+
+  &__login {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}

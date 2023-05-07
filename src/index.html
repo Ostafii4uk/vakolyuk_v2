@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vakolyuk</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="assets/styles/main.scss">
     <script type="text/javascript" src="scripts/main.js"></script>
   </head>
-  <body>
+  <body id="app">
+    <header class="header">
+      <div class="header__navbar navbar">
+        <div class="navbar__logo logo">
+          <a href="#">
+            <span class="logo__title">Vako<span class="logo__title logo__title--color">lyuk</span></span>
+          </a>
+        </div>
+        <nav class="navbar__navigation navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Program</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Community</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <div class="navigation__login">
+            <a class="navigation__link" href="#">Login</a>
+            <a class="navigation__link navigation__link--sign-up" href="#">Sign Up</a>
+          </div>
+        </nav>
+      </div>
+      <h1 class="header__title">help for ideal body fitness</h1>
+      <span class="header__subtitle">Craftmanship inexpensive runway stylish waistline trendwatching sleeveless urban skirt comfortable posture glitter hair. Signature condition high heels artistic urban.</span>
+      <div class="header__get-started get-started">
+        <a class="get-started__button" href="#">Get Started</a>
+        <a class="get-started__play-button-border" href="#">
+          <div class="get-started__play-button">
+            <svg
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M6.8541 3.22561C7.30784 3.48757 7.30784 4.14247 6.8541 4.40444L1.74963 7.35151C1.2959 7.61347 0.728732 7.28602 0.728732 6.76209L0.728732 0.86795C0.728732 0.344026 1.2959 0.0165734 1.74963 0.278535L6.8541 3.22561Z" fill="white"></path>
+            </svg>
+          </div>
+        </a>
+        <a class="get-started__link" href="#">watch video</a>
+      </div>
+      <img
+        class="header__photo"
+        src="assets/img/header.jpg"
+        alt="Sergiy"
+      >
+      <span class="header__background-text">fitness</span>
+      <img
+        class="header__background-ellipse header__background-ellipse--left"
+        src="assets/svg/header/ellipse.svg"
+        alt="ellipse"
+      >
+      <img
+        class="header__background-ellipse header__background-ellipse--right"
+        src="assets/svg/header/ellipse.svg"
+        alt="ellipse"
+      >
+    </header>
   </body>
 </html>

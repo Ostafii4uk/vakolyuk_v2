@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+body {
+  background: linear-gradient(
+    90deg, rgba(1,5,13,1) 0%,
+    rgba(28,44,64,1) 50%,
+    rgba(1,5,13,1) 100%
+  );
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Popins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #192023;
+}
