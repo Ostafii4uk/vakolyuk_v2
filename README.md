@@ -1,4 +1,23 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Vakolyuk V2
+
+### Project created for personal trainer Sergiy Vakolyuk
+---
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm start
+```
+
+### Compiles and minifies for production
+```
+npm build
+```
+
+### Lints and fixes files
+```
+npm lint
+```
