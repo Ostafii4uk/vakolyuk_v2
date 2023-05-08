@@ -9,30 +9,18 @@
     align-items: center;
     gap: 25px;
     list-style: none;
-
-    &::after {
-      content: "";
-      height: 10px;
-      width: 1px;
-      background-color: #fff;
-    }
   }
 
   &__link {
+    padding: 5px 15px;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 20px;
     color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.1s linear;
 
     &:hover {
-      color: #5aba4a;
-    }
-
-    &--sign-up {
-      padding: 5px 15px;
-      font-weight: 500;
-      font-size: 12px;
-      line-height: 18px;
       color: #5aba4a;
       border: 1px solid #5aba4a;
       border-radius: 4px;
