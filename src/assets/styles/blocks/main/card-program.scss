@@ -1,7 +1,12 @@
 .card-program {
   padding: 25px;
   width: 200px;
-  background-color: rgba(3, 7, 18, 1);
+  background: linear-gradient(
+    300deg,
+    rgba(1,5,13,1) 50%,
+    rgba(35,47,63,1) 80%,
+    rgba(28,44,64,1) 100%
+  );
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   transition: all 0.2s linear;
 
@@ -18,7 +23,7 @@
   }
 
   &:hover {
-    background-color: rgba(255, 103, 38, 1);
+    background: rgba(255, 103, 38, 1);
     transform: scale(1.05);
 
     & .card-program__button {
