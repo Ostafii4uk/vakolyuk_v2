@@ -23,7 +23,12 @@
   }
 
   &:hover {
-    background: rgba(255, 103, 38, 1);
+    background: linear-gradient(
+      300deg,
+      rgb(29, 13, 6) 50%,
+      rgb(45, 24, 14) 80%,
+      rgb(68, 31, 15) 100%
+    );
     transform: scale(1.05);
 
     & .card-program__button {
