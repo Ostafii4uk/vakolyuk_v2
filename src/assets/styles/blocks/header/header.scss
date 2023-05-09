@@ -9,6 +9,7 @@
     rgba(35,47,63,1) 80%,
     rgba(28,44,64,1) 100%
   );
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 
   &__title {
     margin-top: 90px;
@@ -33,7 +34,6 @@
     position: absolute;
     right: 150px;
     top: 100px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
 
   &__background-text {
