@@ -1,0 +1,49 @@
+.results {
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 49px;
+    text-align: center;
+  }
+
+  &__container {
+    position: relative;
+    padding: 60px;
+    display: flex;
+    background: #030712;
+    box-shadow: 8px 8px 40px rgba(23, 23, 23, 0.25);
+  }
+
+  &__quotes {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 60px;
+    transform: translate(-50%, 10px);
+  }
+
+  &__photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: radial-gradient(
+      circle,
+      #1c2c40 5%,
+      #232f3f 15%,
+      #030712 50%
+    );
+  }
+
+  &__photo {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  &__feedback {
+    padding: 60px 45px 0;
+    width: 50%;
+  }
+}
