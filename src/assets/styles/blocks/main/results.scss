@@ -10,7 +10,6 @@
 
   &__container {
     position: relative;
-    padding: 60px;
     display: flex;
     background: #030712;
     box-shadow: 8px 8px 40px rgba(23, 23, 23, 0.25);
@@ -25,15 +24,16 @@
   }
 
   &__photo-container {
+    padding: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
-    background: radial-gradient(
-      circle,
-      #1c2c40 5%,
-      #232f3f 15%,
-      #030712 50%
+    background: linear-gradient(
+      300deg,
+      rgba(1,5,13,1) 50%,
+      rgba(35,47,63,1) 80%,
+      rgba(28,44,64,1) 100%
     );
   }
 
