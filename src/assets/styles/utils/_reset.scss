@@ -1,5 +1,6 @@
 h2,
 h3,
+h4,
 ul,
 p,
 body {
@@ -10,4 +11,8 @@ body {
 button {
   background: none;
   border: none;
+}
+
+ul {
+  list-style: none;
 }
