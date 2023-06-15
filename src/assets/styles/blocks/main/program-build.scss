@@ -22,6 +22,7 @@
   }
 
   &__container {
+    @include container();
     padding-bottom: 100px;
     display: flex;
     justify-content: center;

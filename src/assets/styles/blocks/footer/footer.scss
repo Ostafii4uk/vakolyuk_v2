@@ -1,7 +1,11 @@
 .footer {
-  display: flex;
-  gap: 110px;
-  justify-content: space-between;
-  padding: 0 60px 45px;
   background-color: #192023;
+
+  &__container {
+    @include container();
+    display: flex;
+    gap: 110px;
+    justify-content: space-between;
+    padding: 0 60px 45px;
+  }
 }

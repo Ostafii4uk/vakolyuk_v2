@@ -12,7 +12,7 @@
   }
 
   &__results {
-    margin-bottom: 130px;
+    @include container();
   }
 
   &__write-me {

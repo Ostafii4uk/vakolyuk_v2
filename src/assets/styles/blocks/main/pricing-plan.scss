@@ -1,6 +1,9 @@
 .pricing-plan {
-  display: flex;
-  flex-direction: column;
+  &__container {
+    @include container();
+    display: flex;
+    flex-direction: column;
+  }
 
   &__title {
     margin: 0 auto;

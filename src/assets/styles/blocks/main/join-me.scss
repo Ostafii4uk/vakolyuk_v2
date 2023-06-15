@@ -1,6 +1,9 @@
 .join-me {
-  display: flex;
-  justify-content: space-around;
+  &__container {
+    @include container();
+    display: flex;
+    justify-content: space-around;
+  }
 
   &__information {
     width: 400px;
@@ -35,12 +38,7 @@
     padding: 30px;
     display: flex;
     gap: 30px;
-    background: linear-gradient(
-      300deg,
-      rgba(1,5,13,1) 50%,
-      rgba(35,47,63,1) 80%,
-      rgba(28,44,64,1) 100%
-    );
+    background: #030712;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
 

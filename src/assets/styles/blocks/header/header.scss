@@ -1,8 +1,4 @@
 .header {
-  padding: 30px 60px;
-  position: relative;
-  margin: 0 auto;
-  max-width: 1200px;
   background: linear-gradient(
     300deg,
     rgba(1,5,13,1) 50%,
@@ -10,6 +6,12 @@
     rgba(28,44,64,1) 100%
   );
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+
+  &__container {
+    @include container ();
+    position: relative;
+    padding: 30px 60px;
+  }
 
   &__title {
     margin-top: 90px;
@@ -33,7 +35,7 @@
     height: 600px;
     position: absolute;
     right: 150px;
-    top: 100px;
+    top: 70px;
   }
 
   &__background-text {

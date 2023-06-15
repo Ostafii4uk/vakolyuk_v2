@@ -1,15 +1,19 @@
 .write-me {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: linear-gradient(
-    300deg,
-    rgba(1,5,13,1) 50%,
-    rgba(35,47,63,1) 80%,
-    rgba(28,44,64,1) 100%
-  );
-  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  &__container {
+    @include container();
+    padding: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+      300deg,
+      rgba(1,5,13,1) 50%,
+      rgba(35,47,63,1) 80%,
+      rgba(28,44,64,1) 100%
+    );
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  }
 
   &__title {
     margin-bottom: 15px;
